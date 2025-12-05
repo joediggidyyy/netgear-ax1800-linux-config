@@ -64,7 +64,8 @@ Create a public GitHub repository containing **safe, redacted** configuration pa
 
 ---
 
-## 6. Artifacts
-
-- **Repo:** `https://github.com/<OWNER>/netgear-ax1800-linux-config`
-- **Job log:** This file
+<p align="center">
+  <sub>
+    Maintained by Polymath Global / CodeSentinel, stewarded by <code>joediggidyyy</code> (Joe Waller).
+  </sub>
+</p>
