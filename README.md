@@ -27,7 +27,7 @@ Public reference repository for a Netgear Nighthawk AX1800 USB adapter / router 
 
 <div style="width:20%; margin: auto;">
 
-![Polymath Global Logo](assets/images/polymath-global-logo.jpg "Polymath Global")
+![Polymath Global Logo](assets/images/polymath_global.png "Polymath Global")
 
 </div>
 
