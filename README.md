@@ -1,2 +1,44 @@
-# netgear-ax1800-linux-config
-This repository provides initial Linux network configuration examples for connecting to an AX1800 router
+# Netgear AX1800 Linux Config
+
+Public reference repository for a Netgear Nighthawk AX1800 USB adapter / router running with Linux.
+
+> This repo contains **redacted examples and documentation only**. Do not store real SSIDs, passwords, MAC addresses, or public IPs here.
+
+## Layout
+
+- `adapter/` – client-mode configurations when using the AX1800 as a USB Wi‑Fi adapter.
+  - `networkmanager/` – NetworkManager profiles (`*.nmconnection`).
+  - `wpa_supplicant/` – `wpa_supplicant.conf` examples.
+  - `notes/` – driver / distro compatibility notes.
+- `router/` – Linux host acting as router/AP using the AX1800.
+  - `hostapd/` – example `hostapd.conf` for AP mode.
+  - `dnsmasq/` – example `dnsmasq.conf` for DHCP/DNS on the Wi‑Fi LAN.
+  - `systemd-networkd/` – `*.network` examples for WAN/LAN.
+- `docs/` – higher-level guides and troubleshooting.
+- `assets/images/` – optional tiny branding assets (e.g., Polymath logo) referenced only from footers.
+
+## Getting Started
+
+1. Copy this entire directory into your `netgear-ax1800-linux-config` repo root.
+2. Review each example and replace placeholders like `YOUR_SSID_HERE` and `YOUR_PASSPHRASE_HERE` **in your own private copies only**.
+3. Never commit real credentials or identifying information back to the public repo.
+
+## Attribution
+
+At the bottom of the main `README.md` (in the public repo) you may optionally keep this subtle footer:
+
+```markdown
+---
+
+<p align="center">
+  <sub>
+    Maintained by Polymath Global / CodeSentinel, stewarded by <code>joediggidyyy</code> (Joe Waller).
+  </sub>
+</p>
+```
+
+If you add a small logo file under `assets/images/`, you can place it above the footer text.
+
+## License and Support
+
+Choose a license compatible with public documentation (for example, a permissive documentation license). Vendor support and firmware-specific issues are intentionally out of scope.
