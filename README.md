@@ -25,20 +25,11 @@ Public reference repository for a Netgear Nighthawk AX1800 USB adapter / router 
 
 ## Attribution
 
-At the bottom of the main `README.md` (in the public repo) you may optionally keep this subtle footer:
+<div style="width:20%; margin: auto;">
 
-```markdown
----
+![Polymath Global Logo](assets/images/polymath-global-logo.jpg "Polymath Global")
 
-<p align="center">
-  <sub>
-    Maintained by Polymath Global / CodeSentinel, stewarded by <code>joediggidyyy</code> (Joe Waller).
-  </sub>
-</p>
-```
+</div>
 
-If you add a small logo file under `assets/images/`, you can place it above the footer text.
+> *This documentation is maintained by joediggidyyy @ CodeSentinel. A Polymath project*
 
-## License and Support
-
-Choose a license compatible with public documentation (for example, a permissive documentation license). Vendor support and firmware-specific issues are intentionally out of scope.
